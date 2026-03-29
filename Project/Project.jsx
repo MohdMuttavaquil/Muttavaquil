@@ -59,7 +59,7 @@ const Project = () => {
             </div>
 
             <div className='Link mt-2 mb-4 flex gap-4 ml-[1rem] '>
-                <a className='text-blue-600' href='https://college-website-frontend-9yal.onrender.com/' target='_blank'>Live Demo</a>
+                <a className='text-blue-600' href='https://college-website-liard.vercel.app/' target='_blank'>Live Demo</a>
                 <a className='text-blue-600' href='https://github.com/MohdMuttavaquil/college-Website' target='_blank'>GitHub Repo</a>
             </div>
 

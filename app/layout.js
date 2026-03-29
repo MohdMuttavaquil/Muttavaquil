@@ -14,12 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "MOHD MUTTAVAQUIL",
-  description: "MOHD MUTTAVAQUIL PORTFOLIO",
-  verificatiion: {
-    google: "ZvtS-YbBDOX71IebhqCPg2Zc9NApffZ8zvKx78ZfNlA"
-  }
+  title: "Muttavaquil | Full Stack Web Developer Portfolio",
+  description:
+    "Muttavaquil is a full stack web developer specializing in Next.js, React, Node.js, and modern web applications.",
 };
+
 
 const montserrat = Montserrat({
   subsets: ["latin"],
