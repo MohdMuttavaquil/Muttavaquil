@@ -21,7 +21,9 @@ const About = () => {
           <h1 className='bg-gradient-to-r from-[#3F5EFB] to-[#FC466B] bg-clip-text text-transparent text-[2rem] inline-block mt-1'>MOHD MUTTAVAQUIL</h1>
           <h2 className='text-[2rem]'>Full Stack Web Developer</h2>
 
-          <h2 className='text-[1rem] mt-2 w-[90%]'> I am a Full Stack Web Developer who enjoys building modern and user-friendly web applications. I have real project experience creating responsive websites and improving their performance. I like writing clean code, learning new tools, and building things that work smoothly for users and continuously improving my technical skills.</h2>
+          <h2 className='text-[1rem] mt-2 w-[90%]'> Hi, I’m Mohd Muttavaquil, a passionate Full Stack Web Developer with hands-on experience in building modern, scalable web applications.
+            I completed my Computer Science undergraduate degree in 2024 from Gurukul Kangri University, Haridwar.
+            I am highly motivated to grow my career in web development, continuously improve my skills, and explore exciting opportunities where I can contribute, learn, and build impactful products.</h2>
 
           <div className="flex gap-6 mt-4">
 
@@ -54,7 +56,7 @@ const About = () => {
 
       {/*Skills Section */}
 
-       <h2 className='text-[2rem] text-center my-[2rem]'>Technical Skills</h2>
+      <h2 className='text-[2rem] text-center my-[2rem]'>Technical Skills</h2>
 
       <div id='skills' className={`my-[2rem] w-[80%] flex mx-auto justify-evenly`}>
 
