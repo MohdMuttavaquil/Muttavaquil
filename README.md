@@ -1,5 +1,8 @@
 # 🌐 Portfolio Website
 
+## 🔗 Live Demo
+https://muttavaquil.vercel.app
+
 This is my personal portfolio website, designed to showcase my skills, projects, education, and achievements in a clean and professional way.
 
 ## 🚀 Features
@@ -17,9 +20,6 @@ This is my personal portfolio website, designed to showcase my skills, projects,
 ## 🌍 Deployment
 
 * Hosted on **Vercel**
-
-## 🔗 Live Demo
-https://muttavaquil.vercel.app
 
 ## 📬 Contact
 
