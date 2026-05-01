@@ -4,13 +4,14 @@ import { useInView } from "@/utils/Scroll";
 
 const Education = () => {
 
-    const [ ref1, inView1 ] = useInView(0.5)
+  const [ref1, inView1] = useInView(0.5)
 
   return (
     <div>
 
-         <p className="text-[2rem] text-center mt-[7rem]">Education</p>
-      <div id='education' ref={ref1} className={`${inView1? "fadeIn": "opacity-0"} my-[2rem] w-[80%] flex mx-auto justify-evenly`}>
+      <p className="text-[2rem] text-center mt-[7rem]">Education</p>
+      
+      <div id='education' ref={ref1} className={`${inView1 ? "fadeIn" : "opacity-0"} my-[2rem] w-[80%] flex mx-auto justify-evenly`}>
 
         <div className="bg-[#222222] hover:border-2 hover:border-[#444444] rounded-xl lg:w-[30%] ">
 
@@ -35,10 +36,10 @@ const Education = () => {
         <div className="bg-[#222222] hover:border-2 hover:border-[#444444] rounded-xl w-[30%]">
           <p className="text-[1.25rem] font-semibold ml-6 mt-4">X</p>
           <p className="w-[90%] mx-auto mt-2 mb-6">class 10 <br></br>
-           Uttarakhand Board of School Education <br></br>
+            Uttarakhand Board of School Education <br></br>
             Year: 2019 <br></br>
             Grade: 73.8% <br></br>
-          Learned Mathematics, Science and English, problem-solving and communication skills.</p>
+            Learned Mathematics, Science and English, problem-solving and communication skills.</p>
         </div>
 
       </div>

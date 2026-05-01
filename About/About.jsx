@@ -17,6 +17,8 @@ const About = () => {
 
         <div className={`info w-[50%]`}>
 
+          {/* About me section */}
+
           <p className='text-[1rem]'>Hello it's me </p>
           <h1 className='bg-gradient-to-r from-[#3F5EFB] to-[#FC466B] bg-clip-text text-transparent text-[2rem] inline-block mt-1'>MOHD MUTTAVAQUIL</h1>
           <h2 className='text-[2rem]'>Full Stack Web Developer</h2>
@@ -41,6 +43,8 @@ const About = () => {
           </div>
 
 
+           {/* GitHub & Linked section */}
+
           <div className='flex gap-6 mt-6'>
             <a href='https://github.com/MohdMuttavaquil' target='_blank'><i className="devicon-github-original-wordmark text-[3rem] rounded-full"></i> </a>
             <a href='https://www.linkedin.com/in/mohd-muttavaquil/' target='_blank'>
@@ -49,6 +53,8 @@ const About = () => {
           </div>
 
         </div>
+
+        {/* Profile photo section */}
 
         <img src='./profile.jpeg' className={`shadow h-[20rem] rounded-full bg-red-400`}></img>
 
