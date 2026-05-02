@@ -84,14 +84,14 @@ const backend = [
         name: "Amazon Web Services"
     },
 
-    {
-        url: "devicon-graphql-plain colored",
-        name: "GraphQL"
+     {
+        url: "devicon-npm-original-wordmark colored",
+        name: "NPM"
     },
 
     {
-        url: "devicon-npm-original-wordmark colored",
-        name: "NPM"
+        url: "devicon-graphql-plain colored",
+        name: "GraphQL"
     },
 
     {

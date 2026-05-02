@@ -10,20 +10,20 @@ const About = () => {
   const [ref2, inView2] = useInView(0.7)
 
   return (
-    <div className='w-[80%] mx-auto'>
+    <div className='md:w-[80%] w-[94%] mx-auto'>
 
       {/*About section*/}
-      <div id='about' className={`fadeIn my-[8rem] flex justify-around`}>
+      <div id='about' className={`fadeIn md:my-[8rem] my-[4rem] flex justify-around`}>
 
-        <div className={`info md:w-[50%] w-full`}>
+        <div className={`info md:w-[50%] mx-2 `}>
 
           {/* About me section */}
 
           <p className='text-[1rem]'>Hello it's me </p>
-          <h1 className='bg-gradient-to-r from-[#3F5EFB] to-[#FC466B] bg-clip-text text-transparent text-[2rem] inline-block mt-1'>MOHD MUTTAVAQUIL</h1>
-          <h2 className='text-[2rem]'>Full Stack Web Developer</h2>
+          <h1 className='bg-gradient-to-r from-[#3F5EFB] to-[#FC466B] bg-clip-text text-transparent md:text-[2rem] text-[1.5rem] inline-block mt-1'>MOHD MUTTAVAQUIL</h1>
+          <h2 className='md:text-[2rem] text-[1.5rem]'>Full Stack Web Developer</h2>
 
-          <h2 className='text-[1rem] mt-2 w-[90%]'> Hi, I’m Mohd Muttavaquil, a passionate Full Stack Web Developer with hands-on experience in building modern, scalable web applications.
+          <h2 className='text-[1rem] mt-2 md:w-[90%]'> Hi, I’m Mohd Muttavaquil, a passionate Full Stack Web Developer with hands-on experience in building modern, scalable web applications.
             I completed my Computer Science undergraduate degree in 2024 from Gurukul Kangri University, Haridwar.
             I am highly motivated to grow my career in web development, continuously improve my skills, and explore exciting opportunities where I can contribute, learn, and build impactful products.</h2>
 
@@ -62,11 +62,11 @@ const About = () => {
 
       {/*Skills Section */}
 
-      <h2 className='text-[2rem] text-center my-[2rem]'>Technical Skills</h2>
+      <h2 ref={ref1} className='text-[2rem] text-center my-[2rem]'>Technical Skills</h2>
 
-      <div id='skills' className={`my-[2rem] w-[80%] flex mx-auto justify-evenly`}>
+      <div id='skills' className={`my-[2rem] md:flex md:mx-auto justify-evenly`}>
 
-        <div ref={ref1} id="frontend" className={`${inView1 ? "card3 opacity-100" : "opacity-0"} border-2 border-[#444444] hover:border-4 rounded-xl lg:w-[45%]`} >
+        <div ref={ref1} id="frontend" className={`${inView1 ? "card3 opacity-100" : "opacity-0"} border-2 border-[#444444] hover:border-4 rounded-xl md:w-[40%] w-full`} >
 
           <p className='font-semibold text-center text-xl mt-6'>Frontend</p>
 
@@ -79,7 +79,7 @@ const About = () => {
 
         </div>
 
-        <div ref={ref2} id="backend" className={`${inView2 ? "card3 opacity-100" : "opacity-0"} border-2 border-[#444444] hover:border-4 rounded-xl lg:w-[45%]`} >
+        <div ref={ref2} id="backend" className={`${inView2 ? "card3 opacity-100" : "opacity-0"} border-2 border-[#444444] hover:border-4 rounded-xl md:w-[40%] w-full my-4`} >
 
           <p className='font-semibold text-center text-xl mt-6'>Backend</p>
 

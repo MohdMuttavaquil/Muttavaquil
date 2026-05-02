@@ -13,25 +13,25 @@ const Project = () => {
 
   return (
 
-    <div id='projects' className='w-[80%] mx-auto my-[5rem]'>
+    <div id='projects' className='md:w-[80%] w-[94%] mx-auto my-[5rem]'>
 
       <h2 className='text-[2rem] text-center my-[2rem]'>PROJECTS</h2>
 
       <div className='md:flex flex-wrap w-full justify-evenly'>
 
-        <div ref={ref1} className={` ${inView1 ? "card1 opacity-100" : "opacity-0"}  md:w-[40%] w-full`}>
+        <div ref={ref1} className={` ${inView1 ? "card1 opacity-100" : "opacity-0"}  md:w-[40%]`}>
           <ProjectCard data={styleVibe} />
         </div>
 
-        <div ref={ref4} className={` ${inView4 ? "card4 opacity-100" : "opacity-0"} md:w-[40%] w-full`}>
+        <div ref={ref4} className={` ${inView4 ? "card4 opacity-100" : "opacity-0"} md:w-[40%]`}>
           <ProjectCard data={msgly} />
         </div>
 
-        <div ref={ref2} className={` ${inView2 ? "card3 opacity-100" : "opacity-0"} md:w-[40%] w-full`}>
+        <div ref={ref2} className={` ${inView2 ? "card3 opacity-100" : "opacity-0"} md:w-[40%]`}>
           <ProjectCard data={dmic} />
         </div>
 
-        <div ref={ref3} className={` ${inView3 ? "card3 opacity-100" : "opacity-0"} md:w-[40%] w-full md:flex hidden`}>
+        <div ref={ref3} className={` ${inView3 ? "card3 opacity-100" : "opacity-0"} md:w-[40%] md:flex hidden`}>
           <ProjectCard data={getFood} />
         </div>
 

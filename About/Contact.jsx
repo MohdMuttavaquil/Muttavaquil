@@ -33,21 +33,24 @@ const Contact = () => {
   }
 
   return (
-    <div id='contact' ref={ref} className={`${inView ? "fadeIn opacity-100" : "opacity-0"} w-[80%] flex mx-auto flex-col my-[7rem]`}>
+
+    <div id='contact' ref={ref} className={`${inView ? "fadeIn opacity-100" : "opacity-0"} md:w-[80%] w-full md:mx-auto flex flex-col my-[7rem]`}>
 
       <div className='flex flex-col items-center'>
         <p className='text-xl text-center'>Connact with me</p>
         <p className='text-[2rem] text-center'>Get In Touch</p>
       </div>
 
-      <form onSubmit={onSubmit} className='mx-auto items-center mt-6 px-3 py-4 bg-[#1E1E1E] rounded-xl inline-block border-2 border-[#444444]'>
+      <form onSubmit={onSubmit} className='md:mx-auto mx-2 items-center mt-6 px-3 md:w-fit py-4 bg-[#1E1E1E] rounded-xl inline-block border-2 border-[#444444]'>
 
-        <div className='flex gap-4'>
+        <div className='md:flex md:flex-row flex flex-col gap-4'>
+
           <input type='text' placeholder='Enter Your Name' name='name' required className='bg-[#FFFFFF0D]  border-2 border-[#444444] rounded-lg outline-none px-4 py-2' />
           <input type='text' placeholder='Enter Your Email' name='email' required className='bg-[#FFFFFF0D]  border-2 border-[#444444] rounded-lg outline-none px-4 py-2' />
+
         </div>
 
-        <textarea rows='6' placeholder='Enter Massege' name='massege' required className='bg-[#FFFFFF0D]  border-2 border-[#444444] rounded-lg outline-none w-[32rem] px-4 py-2 mt-6' />
+        <textarea rows='6' placeholder='Enter Massege' name='massege' required className='bg-[#FFFFFF0D]  border-2 border-[#444444] rounded-lg outline-none w-full px-4 py-2 mt-6' />
 
         <div className='flex flex-col items-center'>
           <button type='submit' className='flex gap-1 bg-gradient-to-r from-[#3F5EFB] to-[#FC466B] px-3 py-1 rounded-lg text-white cursor-pointer mt-6'>Submit Now <ArrowRight className="w-5 h-5 pt-1" /> </button>

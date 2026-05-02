@@ -127,24 +127,6 @@ html {
     }
 }
 
-
-.typing {
-    width: 50;
-    animation: typing 2s steps(50), .5s;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-@keyframes typing {
-    from {
-        width: 0
-    }
-
-    to {
-        width: 50ch
-    }
-}
-
 @keyframes fadeIn {
     from {
         opacity: 0;
