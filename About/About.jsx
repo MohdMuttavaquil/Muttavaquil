@@ -15,7 +15,7 @@ const About = () => {
       {/*About section*/}
       <div id='about' className={`fadeIn my-[8rem] flex justify-around`}>
 
-        <div className={`info w-[50%]`}>
+        <div className={`info md:w-[50%] w-full`}>
 
           {/* About me section */}
 
@@ -56,7 +56,7 @@ const About = () => {
 
         {/* Profile photo section */}
 
-        <img src='./profile.jpeg' className={`shadow h-[20rem] rounded-full bg-red-400`}></img>
+        <img src='./profile.jpeg' className={`shadow h-[25rem] w-[35%] md:flex hidden rounded-full bg-red-400`}></img>
 
       </div>
 

@@ -24,7 +24,7 @@ const Nevber = () => {
           PORTFOLIO
         </div>
 
-        <ul className='flex gap-6 mt-2'>
+        <ul className='gap-6 mt-2 md:flex hidden'>
 
           <li className={`cursor-pointer hover:font-bold text-sm ${inter.className}`}><Link href="#about">ABOUT</Link></li>
           <li className={`cursor-pointer hover:font-bold text-sm ${inter.className}`}><Link href="#skills">SKILLS</Link></li>

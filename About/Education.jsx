@@ -22,7 +22,7 @@ const Education = () => {
 
         </div>
 
-        <div className="bg-[#222222] hover:border-2 hover:border-[#444444] rounded-xl w-[30%]">
+        <div className="bg-[#222222] hidden md:flex flex-col hover:border-2 hover:border-[#444444] rounded-xl w-[30%]">
 
           <p className="text-[1.25rem] font-semibold ml-6 mt-4">XII</p>
           <p className="w-[90%] mx-auto mt-2 mb-6">Class 12 (PCM  Physics, Chemistry, Mathematics) <br></br>
@@ -33,7 +33,8 @@ const Education = () => {
 
         </div>
 
-        <div className="bg-[#222222] hover:border-2 hover:border-[#444444] rounded-xl w-[30%]">
+        <div className="bg-[#222222] hidden md:flex flex-col hover:border-2 hover:border-[#444444] rounded-xl w-[30%]">
+          
           <p className="text-[1.25rem] font-semibold ml-6 mt-4">X</p>
           <p className="w-[90%] mx-auto mt-2 mb-6">class 10 <br></br>
             Uttarakhand Board of School Education <br></br>
