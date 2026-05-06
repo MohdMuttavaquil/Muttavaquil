@@ -21,3 +21,10 @@ export function useInView(threshold = 0.5) {
 
   return [ref, inView];                        
 }
+
+export const moveToTop = () =>{
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+}

@@ -2,12 +2,13 @@
 import React from 'react'
 import { useState } from 'react'
 import { ArrowRight } from 'lucide-react'
-import { useInView } from '@/utils/Scroll'
+import { moveToTop, useInView } from '@/utils/Scroll'
+import { showErrorToast, showSuccessToast } from '@/utils/Toast'
 
 const Contact = () => {
 
   const [result, setResult] = useState("")
-  const [ref, inView ] = useInView(0.5)
+  const [ref, inView] = useInView(0.5)
 
   const onSubmit = async (event) => {
     event.preventDefault()
@@ -24,12 +25,14 @@ const Contact = () => {
     const data = await response.json()
 
     if (data.success) {
-      setResult("Form Submitted Successfully")
+      showSuccessToast("your message has been sent")
       event.target.reset()
     } else {
-      console.log("Error", data)
-      setResult(data.message)
+      showErrorToast("Some error try again!")
     }
+
+    setResult('')
+    moveToTop()
   }
 
   return (
@@ -56,7 +59,7 @@ const Contact = () => {
           <button type='submit' className='flex gap-1 bg-gradient-to-r from-[#3F5EFB] to-[#FC466B] px-3 py-1 rounded-lg text-white cursor-pointer mt-6'>Submit Now <ArrowRight className="w-5 h-5 pt-1" /> </button>
 
           <p className='mt-4 text-lg'>{result}</p>
-          
+
         </div>
 
 

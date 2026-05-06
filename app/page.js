@@ -4,6 +4,7 @@ import Education from "@/About/Education";
 import Project from "@/Project/Project";
 import { Inter } from "next/font/google";
 import Contact from "@/About/Contact";
+import { ToastContainer } from "react-toastify";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -20,6 +21,8 @@ export default function Home() {
       <Project />
       <Education />
       <Contact />
+
+      <ToastContainer />
     </div>
   );
 }
