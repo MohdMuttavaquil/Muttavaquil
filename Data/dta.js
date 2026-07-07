@@ -84,7 +84,7 @@ const backend = [
         name: "Amazon Web Services"
     },
 
-     {
+    {
         url: "devicon-npm-original-wordmark colored",
         name: "NPM"
     },
@@ -146,15 +146,16 @@ const dmic = {
 
 }
 
-const getFood = {
 
-    url: 'getFood.avif',
-    name: 'Get Food',
-    disc: 'Get Food is a Food Delivery App order meals online with secure payments and cash on delivery, add items to cart and sign in with user authentication.',
+const neaxAI = {
 
-    tech: ["React.js", "Node.js", "MongoDB", "Render", "Tailwind CSS", "RazorPay"],
-    link: [{ href: "https://getfood-frontrnd.onrender.com", name: "Live Demo" },
-    { href: "https://github.com/MohdMuttavaquil/GetFood", name: "GitHub Repo" }]
+    url: "nexaai.png",
+    name: "NexaAI",
+    disc: "NexaAI is an AI-powered chat application that enables users to interact with an intelligent AI assistant.  The application provides personalized conversations by storing chat records for each authenticated user.",
+
+    tech: ["Google Gemini SDK", "React.js", "node.js", "MongoDB", "Tailwind CSS", "AWS"],
+    link: [{ href: "https://nexa-ai-three.vercel.app", name: "Live Demo" },
+    { href: "https://github.com/MohdMuttavaquil/NexaAI", name: "GitHub Repo" }]
 }
 
-export { frontend, backend, styleVibe, msgly, dmic, getFood }
+export { frontend, backend, styleVibe, msgly, dmic, neaxAI }

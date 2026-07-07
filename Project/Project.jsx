@@ -1,6 +1,6 @@
 "use client"
 import { useInView } from '@/utils/Scroll'
-import { styleVibe, msgly, getFood, dmic } from '@/Data/dta'
+import { styleVibe, msgly, neaxAI, dmic } from '@/Data/dta'
 import ProjectCard from '@/Components/ProjectCard'
 
 const Project = () => {
@@ -24,15 +24,15 @@ const Project = () => {
         </div>
 
         <div ref={ref4} className={` ${inView4 ? "card4 opacity-100" : "opacity-0"} md:w-[40%]`}>
-          <ProjectCard data={msgly} />
+          <ProjectCard data={neaxAI} />
         </div>
 
         <div ref={ref2} className={` ${inView2 ? "card3 opacity-100" : "opacity-0"} md:w-[40%]`}>
-          <ProjectCard data={dmic} />
+          <ProjectCard data={msgly} />
         </div>
 
         <div ref={ref3} className={` ${inView3 ? "card3 opacity-100" : "opacity-0"} md:w-[40%] md:flex hidden`}>
-          <ProjectCard data={getFood} />
+          <ProjectCard data={dmic} />
         </div>
 
       </div>
